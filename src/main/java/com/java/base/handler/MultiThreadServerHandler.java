@@ -18,7 +18,6 @@ public class MultiThreadServerHandler implements Runnable{
 			while((inputLine=in.readLine())!=null){
 				out.println(inputLine);
 			}
-			
 		}catch(Exception e){
 			e.printStackTrace();
 		}
